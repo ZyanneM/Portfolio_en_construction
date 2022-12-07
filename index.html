@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- <script type="importmap">
+        {
+            "imports":{
+                "three": "./build/three.module.js",
+                "three/examples/jsm/controls/OrbitControls": "./jsm/controls/OrbitControls.js",
+                "three/examples/jsm/textures/FlakesTexture": "./jsm/textures/FlakesTexture.js",
+                "three/examples/jsm/loaders/RGBELoader": "./jsm/loaders/RGBELoader.js"
+            }
+        }
+    </script> -->
+    <title>Zyanniverse</title>
+ 
+</head>
+
+<body>
+<script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+    
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three/build/three.module.js"
+            }
+        }
+    </script>
+
+ 
+
+    <script type="module" src="./test.js"></script>
+    <div class="canvas-element">
+        <canvas class="webgl"></canvas>
+    </div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
+    <script src="three.min.js"></script>
+    <script src="GLTFLoader.js"></script>
+    <script src="OrbitControls.js"></script> -->
+<!-- ################################### HEADER ########################################## -->
+    <header>
+
+        <div id="nav">
+            <ul id="menu">
+            <li>     <a href="#" class="logo">
+
+            <img id="logoimg" src="./images/logo_neon.png">
+
+          </a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Contact</a></li>
+            </ul>
+
+    </div>
+    </header>
+   
+<!-- ################################ SECTION ESSAI CSS STARS ################################### -->
+
+<section class="wrapper">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+</section>
+
+
+    <!-- ################################ SECTION HOME ################################### -->
+
+        
+        <!-- <div id="bg"></div> -->
+        <!-- <div class="svgContainer">
+        <svg viewBox="0 0 500 500" id="moonlight" xmlns="http://www.w3.org/2000/svg">
+            <ellipse style="paint-order: fill; fill: rgb(63, 24, 113); stroke: rgba(44, 20, 93, 0);" cx="253.814" cy="189.848" rx="37.402" ry="36.678" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 196.112441, -95.258651)"/>
+            <path style="fill: rgb(63, 24, 113); stroke: rgba(0, 0, 0, 0);" d="M 106.531 173.003 C 106.531 173.003 161.474 97.626 252.801 110.528 C 344.127 123.43 362.324 213.747 362.324 213.747 C 362.324 213.747 314.456 156.683 247.236 145.577 C 181.306 134.684 106.475 172.324 106.531 173.003 Z" transform="matrix(0.987598, -0.157003, 0.157003, 0.987598, -22.432109, 38.807417)"/>
+          </svg>
+        </div> -->
+
+        <div class="hello">
+            <h2 id="titleHome">Marilyn Olejniczak</h2>
+            <h3>Web Developer - Digital Artist</h3>
+            <div class="cubetest"></div>    
+        </div> 
+   
+        <!-- <img id="etoiles" src="/images/starsbackground.png" alt="etoiles"> -->
+        
+
+
+
+<!-- ################################ DIV ETOILES ################################### -->
+
+    <!-- <div class="stars" id="stars">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+        <img src="images/starsanimation.png">
+    </div> -->
+
+    
+    <!-- ################################ SECTION ? ################################### -->
+    
+
+  
+
+        <!-- <div id="bg2"></div> -->
+
+    <!-- <div class="sec" id="sec"></div> -->
+
+        <!-- <div class="section_contain">
+                <div><h2>A propos de moi</h2>
+                <p>Développeuse front-end en formation<br><br>
+                 J'aime les univers fantastiques et ennivrants, bienvenue dans le mien<br><br>
+                 Je suis tompbée dans la grande marmite du développement web <br>après dix ans d'enseignement en maternelle<br><br>
+                 Je réalise également des illustrations au style oniriques</p>
+    
+                </div>
+
+        <div>
+        <img id="dragonabout" src="images/dragonpngegg.png" alt="dragonabout">
+        </div> -->
+
+
+
+
+
+
+    <div id="bg3"></div>
+
+    <div class="sec" id="sec"></div>
+
+      
+            
+<!-- slider start -->
+<!-- <div class="slider">
+    <div class="slides">
+        <!-- radio button start -->
+        <!-- <input type="radio" name="radio_btn" id="radio1">
+        <input type="radio" name="radio_btn" id="radio2">
+        <input type="radio" name="radio_btn" id="radio3">
+        <input type="radio" name="radio_btn" id="radio4">
+        <input type="radio" name="radio_btn" id="radio5"> -->
+        <!-- radio button end -->
+        <!-- slide images start -->
+        <!-- <div class="slide first">
+            <img src="images_slides/sousocean.jpg" alt="under_the_sea">
+        </div>
+        <div class="slide">
+            <img src="images_slides/believeindragon.jpg" alt="dragon">
+        </div>
+        <div class="slide">
+            <img src="images_slides/bbproject.jpg" alt="bbproject">
+        </div>
+        <div class="slide">
+            <img src="images_slides/witchhand.jpg" alt="witch_hand">
+        </div>
+        <div class="slide">
+            <img src="images_slides/mermaidpearl.jpg" alt="mermaid">
+        </div> -->
+        <!-- slide images end -->
+    <!-- </div>
+</div> --> 
+
+<!-- slider end -->
+            
+            <!-- <div id="text_work"><h2>Mon travail</h2>
+                <p>Explorez mon univers<br>
+                </p>
+            </div> -->
+
+
+
+  
+
+    
+    </div>
+
+
+
+
+
+
+    <div id="bg4"></div>
+
+        <div class="section_contain">
+             <!-- <div>
+            
+                <h2>Envoyez moi un hibou <br>( ou un dragon ça marche aussi )</h2>
+
+             <form id="formulaire">
+                    <div>
+                        <input type="text" name="message" id="message" placeholder="Votre message">
+                        <div>
+                            <select id="animal" name="animal" >
+                                <option value=""> Choisissez votre mode d'envoi</option>
+                                <option value="hibou"> Hibou</option>
+                                <option value="dragon"> Dragon</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button id="hibou_button" type="submit">Envoyer le hibou</button>
+                    </div>
+
+              </form> 
+            
+            <div>
+                <img id="owl" src="images/owlpngegg.png" alt="owl">
+            </div> -->
+
+
+            </div>
+
+
+    <div class="ligne"></div>
+
+
+    <footer>Zyanne Creations — All Rights Reserved - 2021 </footer>
+<!-- <script src="/3D.js"></script> -->
+<script src="./script.js"></script>
+
+
+</body>
+</html>
